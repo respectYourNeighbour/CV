@@ -1,0 +1,105 @@
+nav .container #navbar ul {
+	text-transform: uppercase;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	transition: all 0.3s;
+}
+
+.navbar-default .navbar-nav > .active > a:active {
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	border-radius : 4px;
+	background-color: yellow;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	border-radius : 4px;
+	background-color: red;
+}
+
+.navbar-header .navbar-brand, .navbar-default .navbar-nav > li > a {
+	color: #FFF;
+}
+
+.navbar-default {
+	background-color : #222222;
+	border-color: #222222;
+	padding: 10px 0px;
+	font-size: 1.1em;
+}
+
+header {
+	background-color: gray;
+}
+
+header .container {
+	background-color: teal;
+	
+}
+
+.intro-text {
+	padding-top: 300px;
+	padding-bottom: 200px;
+	font-size: 1.8em;
+	color: #FFF;
+	text-align: center;
+}
+
+.intro-text-title {
+	color: red;
+}
+
+.intro-text-subtitle {
+	color: blue;
+}
+
+#services {
+	height: 400px;
+}
+
+#portfolio {
+	height: 400px;
+}
+
+#about {
+	height: 400px;
+}
+
+#team {
+	height: 400px;
+}
+
+#contact {
+	height: 400px;
+}
+
+.bg-light-gray {
+	background-color: #F7F7F7;
+}
+
+footer {
+	padding: 25px 0px;
+	text-align: center;
+}
+
+section {
+	padding: 150px 0px;
+}
+
+.section-title {
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+.text-center {
+	text-align: center;
+}
