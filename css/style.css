@@ -10,7 +10,6 @@ nav .container #navbar ul {
 .navbar-default .navbar-nav > li > a {
 	transition: all 0.3s;
 }
-
 .navbar-default .navbar-nav > .active > a:active {
 	color: #FFF;
 }
@@ -32,11 +31,24 @@ nav .container #navbar ul {
 }
 
 .navbar-default {
-	background-color : #222222;
-	border-color: #222222;
-	padding: 10px 0px;
+	background-color: transparent;
+	padding: 20px 0px;
+	border: none;
 	font-size: 1.1em;
+	transition: all 0.2s;
 }
+
+.navbar-shrink {
+	background-color: #222;
+    padding: 10px 0; 
+}
+.navbar-brand {
+    font-size: 1.8em;
+    transition: all 0.2s;
+} 
+.navbar-brandShrink {
+    font-size: 1.2em;
+} 
 
 header {
 	background-color: gray;
