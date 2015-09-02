@@ -115,3 +115,19 @@ section {
 .text-center {
 	text-align: center;
 }
+
+
+img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+img.image-size {
+	width: 80%;
+	height: 80%;
+}
+
+img.desaturate:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
