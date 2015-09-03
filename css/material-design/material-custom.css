@@ -1080,6 +1080,7 @@ select.form-control.focus {
 .btn-primary.btn-flat:hover:not(.btn-ink) {
   background-color: rgba(0, 150, 136, 0.2);
   background-color: red;
+  color: #FFF;
 }
 .btn-success.btn-flat:hover:not(.btn-ink) {
   background-color: rgba(76, 175, 80, 0.2);
