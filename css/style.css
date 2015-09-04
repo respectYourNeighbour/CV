@@ -16,9 +16,11 @@ nav .container #navbar ul {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
+
 .navbar-default .navbar-nav > .active > a:active {
-	color: #FFF;
+       color: #FFF;
 }
+
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -73,8 +75,7 @@ header {
 }
 
 header .container {
-	/*background-color: #FFF;
-*/
+	/*background-color: #FFF;*/
 }
 
 .intro-text {
@@ -98,7 +99,7 @@ header .container {
 }
 
 #portfolio {
-	height: 800px;
+	/*height: 800px;*/
 }
 
 #about {
@@ -118,7 +119,7 @@ header .container {
 }
 
 footer {
-	padding: 25px 0px;
+	padding: 10px 0px;
 	text-align: center;
 	background-color: #36393B;
 	color: #FFF;
@@ -153,11 +154,24 @@ img.desaturate:hover {
 	filter: grayscale(0%);
 	transition: all 0.4s;
 }
-
+/*
 .portfolio-item-link {
 	display: block;
-	max-height: 165px;
+	max-height: 289px;
+	max-width: 400px;
 	position: relative;
+}*/
+#portfolio .portfolio-item .portfolio-item-link {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+}
+
+#portfolio .portfolio-item .portfolio-item-description h4 {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    margin: 0;
 }
 
 .portfolio-item-hover {
@@ -167,7 +181,7 @@ img.desaturate:hover {
 }
 
 .portfolio-item-hover-content {
-	top: 30%;
+	top: 50%;
 	position: relative;
 	color: #36393b;
 	text-align: center;
@@ -205,7 +219,7 @@ img.desaturate:hover {
     min-height: 100%;
     padding: 100px 0;
     text-align: center;
-    }
+}
 
 .portfolio-modal .close-modal {
     background-color: transparent;
@@ -242,30 +256,81 @@ ul.social-buttons li a:active {
     color: white;
 }
 
-.fa-stack .fa {
-	color : #36393B;
-	background-color: white;
-	border-radius: 100%;
-	height: 140px;
-	width: 140px;
-	line-height: 140px;
+.text-primary {
+	color: #FFF;
 }
 
 /* ACTUAL CSS FOR THE ELEMENTS PRESENTED */
 .box {
-	background-color: #36393b;
-  height: 200px;
-  width: 100%;
+    background-color: #36393b;
+    height: 200px;
+    width: 100%;
 }
 .js-shadow {
-  font-size: 10em;
-  text-align: center;
-  display: block;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  color : #FFF;
-  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+	font-size: 10em;
+  	text-align: center;
+  	display: block;
+  	height: 100%;
+  	width: 100%;
+  	overflow: hidden;
+  	color : #FFF;
+  	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+@media (max-width: 2000px) {
+  	.js-shadow {
+	  font-size: 10em;
+	}
+}
+@media (max-width: 1000px) {
+	.box {
+		background-color: #36393b;
+	  	height: 140px;
+	}
+  	.js-shadow {
+	  	font-size: 6em;
+	}
+	.fa-stack .fa {
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+	}
+	.fa-2x {
+		font-size: 1.4em;
+	}
+	.fa-3x {
+		font-size: 1.4em;
+	}
+	.portfolio-item-hover-content {
+		top: 30%;
+	}
+	.intro-text img {
+		width: 100%;
+	}
+}
+@media (max-width: 500px) {
+	.box {
+		background-color: #36393b;
+	  	height: 100px;
+	}
+  	.js-shadow {
+	  	font-size: 4em;
+	}
+	.fa-stack .fa {
+		height: 70px;
+		width: 70px;
+		line-height: 70px;
+	}
+	.fa-2x {
+		font-size: 1em;
+	}
+	.fa-3x {
+		font-size: 0.8em;
+
+	}
+	.portfolio-item-hover-content {
+		top: 20%;
+	}
 }
 
 #shadow-text {
@@ -273,16 +338,27 @@ ul.social-buttons li a:active {
 }
 
 section h2.section-heading {
-	font-size: 40px;
+	font-size: 1.4em;
     margin-bottom: 15px;
     margin-top: 0;
 }
 
 section h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
+}
+
+.portfolio-item-description h3 {
+	font-size: 1.4em;
+}
+
+.portfolio-item-description h4 {
+	font-size: 1.2em;
+}
+.footer-copyright {
+	margin-top: 10px;
 }
