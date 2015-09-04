@@ -79,7 +79,7 @@ fieldset[disabled] .form-control.focus:disabled,
   outline: none;
   background-image: linear-gradient(#009688, #009688), linear-gradient(#d2d2d2, #d2d2d2);
 
-  background-image: linear-gradient(red, red), linear-gradient(#d2d2d2, #d2d2d2);
+  background-image: linear-gradient(#36393b, #36393b), linear-gradient(#d2d2d2, #d2d2d2);
 
   background-size: 100% 2px, 100% 1px;
   box-shadow: none;
@@ -123,7 +123,7 @@ fieldset[disabled] .form-control.focus:disabled,
   font-size: 12.6px;
 }
 .form-control-wrapper .form-control:focus ~ .floating-label {
-  color: red;
+  color: #36393b;
 }
 .form-control-wrapper .form-control:not(.empty):invalid ~ .floating-label,
 .form-control-wrapper .form-control.focus:invalid ~ .floating-label {
@@ -237,7 +237,7 @@ fieldset[disabled] .form-control.focus:disabled,
 .form-group-danger .form-control:focus {
   background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
-.form-group-material-red .form-control:focus {
+.form-group-material-#36393b .form-control:focus {
   background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .form-group-material-pink .form-control:focus {
@@ -322,7 +322,7 @@ fieldset[disabled] .form-control.focus:disabled,
 .form-group-danger .form-control.focus {
   background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
-.form-group-material-red .form-control.focus {
+.form-group-material-#36393b .form-control.focus {
   background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
 }
 .form-group-material-pink .form-control.focus {
@@ -393,7 +393,7 @@ fieldset[disabled] .form-control.focus:disabled,
   color: #3f51b5;
 }
 .form-group-primary .control-label {
-  color: red;
+  color: #36393b;
 }
 .form-group-success .control-label {
   color: #4caf50;
@@ -407,7 +407,7 @@ fieldset[disabled] .form-control.focus:disabled,
 .form-group-danger .control-label {
   color: #f44336;
 }
-.form-group-material-red .control-label {
+.form-group-material-#36393b .control-label {
   color: #f44336;
 }
 .form-group-material-pink .control-label {
@@ -432,7 +432,7 @@ fieldset[disabled] .form-control.focus:disabled,
   color: #00bcd4;
 }
 .form-group-material-teal .control-label {
-  color: red;
+  color: #36393b;
 }
 .form-group-material-green .control-label {
   color: #4caf50;
@@ -466,7 +466,7 @@ fieldset[disabled] .form-control.focus:disabled,
 }
 .form-group input.form-control:focus ~ .floating-label,
 .form-group-default input.form-control:focus ~ .floating-label {
-  color: red;
+  color: #36393b;
 }
 .form-group-black input.form-control:focus ~ .floating-label {
   color: #000000;
@@ -478,7 +478,7 @@ fieldset[disabled] .form-control.focus:disabled,
   color: #3f51b5;
 }
 .form-group-primary input.form-control:focus ~ .floating-label {
-  color: red;
+  color: #36393b;
 }
 .form-group-success input.form-control:focus ~ .floating-label {
   color: #4caf50;
@@ -492,7 +492,7 @@ fieldset[disabled] .form-control.focus:disabled,
 .form-group-danger input.form-control:focus ~ .floating-label {
   color: #f44336;
 }
-.form-group-material-red input.form-control:focus ~ .floating-label {
+.form-group-material-#36393b input.form-control:focus ~ .floating-label {
   color: #f44336;
 }
 .form-group-material-pink input.form-control:focus ~ .floating-label {
@@ -517,7 +517,7 @@ fieldset[disabled] .form-control.focus:disabled,
   color: #00bcd4;
 }
 .form-group-material-teal input.form-control:focus ~ .floating-label {
-  color: red;
+  color: #36393b;
 }
 .form-group-material-green input.form-control:focus ~ .floating-label {
   color: #4caf50;
@@ -625,7 +625,7 @@ select.form-control.focus {
   color: #3f51b5;
 }
 .btn-primary.btn-flat:not(.btn-link) {
-  color: red;
+  color: #36393b;
 }
 .btn-success.btn-flat:not(.btn-link) {
   color: #4caf50;
@@ -639,7 +639,7 @@ select.form-control.focus {
 .btn-danger.btn-flat:not(.btn-link) {
   color: #f44336;
 }
-.btn-material-red.btn-flat:not(.btn-link) {
+.btn-material-#36393b.btn-flat:not(.btn-link) {
   color: #f44336;
 }
 .btn-material-pink.btn-flat:not(.btn-link) {
@@ -664,7 +664,7 @@ select.form-control.focus {
   color: #00bcd4;
 }
 .btn-material-teal.btn-flat:not(.btn-link) {
-  color: red;
+  color: #36393b;
 }
 .btn-material-green.btn-flat:not(.btn-link) {
   color: #4caf50;
@@ -714,7 +714,7 @@ select.form-control.focus {
   color: rgba(255, 255, 255, 0.84);
 }
 .btn-primary:not(.btn-link):not(.btn-flat) {
-  background-color: red;
+  background-color: #36393b;
   color: rgba(255, 255, 255, 0.84);
 }
 .btn-success:not(.btn-link):not(.btn-flat) {
@@ -733,7 +733,7 @@ select.form-control.focus {
   background-color: #f44336;
   color: rgba(255, 255, 255, 0.84);
 }
-.btn-material-red:not(.btn-link):not(.btn-flat) {
+.btn-material-#36393b:not(.btn-link):not(.btn-flat) {
   background-color: #f44336;
   color: rgba(255, 255, 255, 0.84);
 }
@@ -766,7 +766,7 @@ select.form-control.focus {
   color: rgba(0, 0, 0, 0.84);
 }
 .btn-material-teal:not(.btn-link):not(.btn-flat) {
-  background-color: red;
+  background-color: #36393b;
   color: rgba(255, 255, 255, 0.84);
 }
 .btn-material-green:not(.btn-link):not(.btn-flat) {
@@ -837,7 +837,7 @@ select.form-control.focus {
 .btn-danger:hover:not(.btn-link):not(.btn-flat) {
   background-color: #f55549;
 }
-.btn-material-red:hover:not(.btn-link):not(.btn-flat) {
+.btn-material-#36393b:hover:not(.btn-link):not(.btn-flat) {
   background-color: #f55549;
 }
 .btn-material-pink:hover:not(.btn-link):not(.btn-flat) {
@@ -922,7 +922,7 @@ select.form-control.focus {
 .btn-danger:active:not(.btn-link):not(.btn-flat) {
   background-color: #f65e53;
 }
-.btn-material-red:active:not(.btn-link):not(.btn-flat) {
+.btn-material-#36393b:active:not(.btn-link):not(.btn-flat) {
   background-color: #f65e53;
 }
 .btn-material-pink:active:not(.btn-link):not(.btn-flat) {
@@ -1007,7 +1007,7 @@ select.form-control.focus {
 .btn-danger.active:not(.btn-link):not(.btn-flat) {
   background-color: #f65e53;
 }
-.btn-material-red.active:not(.btn-link):not(.btn-flat) {
+.btn-material-#36393b.active:not(.btn-link):not(.btn-flat) {
   background-color: #f65e53;
 }
 .btn-material-pink.active:not(.btn-link):not(.btn-flat) {
@@ -1079,7 +1079,7 @@ select.form-control.focus {
 }
 .btn-primary.btn-flat:hover:not(.btn-ink) {
   background-color: rgba(0, 150, 136, 0.2);
-  background-color: red;
+  background-color: #36393b;
   color: #FFF;
 }
 .btn-success.btn-flat:hover:not(.btn-ink) {
@@ -1094,7 +1094,7 @@ select.form-control.focus {
 .btn-danger.btn-flat:hover:not(.btn-ink) {
   background-color: rgba(244, 67, 54, 0.2);
 }
-.btn-material-red.btn-flat:hover:not(.btn-ink) {
+.btn-material-#36393b.btn-flat:hover:not(.btn-ink) {
   background-color: rgba(244, 67, 54, 0.2);
 }
 .btn-material-pink.btn-flat:hover:not(.btn-ink) {

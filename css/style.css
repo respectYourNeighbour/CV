@@ -5,10 +5,12 @@ nav .container #navbar ul {
 .navbar {
 	border-radius: 0px;
 	margin-bottom: 0px;
+
 }
 
 .navbar-default .navbar-nav > li > a {
 	transition: all 0.3s;
+
 }
 .navbar-default .navbar-nav > .active > a:active {
 	color: #FFF;
@@ -18,16 +20,19 @@ nav .container #navbar ul {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	border-radius : 4px;
-	background-color: yellow;
+	background-color: #C1C1C1;
+	color: #FFF;
+
 }
 
 .navbar-default .navbar-nav > li > a:hover {
 	border-radius : 4px;
-	background-color: red;
+	background-color: white;
+	color:#36393b;
 }
 
 .navbar-header .navbar-brand, .navbar-default .navbar-nav > li > a {
-	color: #FFF;
+	color: #000000;
 }
 
 .navbar-default {
@@ -38,9 +43,14 @@ nav .container #navbar ul {
 	transition: all 0.2s;
 }
 
+.navbar-shrink .navbar-header .navbar-brand, .navbar-shrink .navbar-nav > li > a {
+	color: #FFF;
+}
+
 .navbar-shrink {
-	background-color: #222;
+	background-color: #36393b;
     padding: 10px 0;
+    
 }
 .navbar-brand {
     font-size: 1.8em;
@@ -51,11 +61,11 @@ nav .container #navbar ul {
 }
 
 header {
-	background-color: gray;
+	background-color: white;
 }
 
 header .container {
-	background-color: teal;
+	background-color: #eff2f4;
 
 }
 
@@ -68,11 +78,11 @@ header .container {
 }
 
 .intro-text-title {
-	color: red;
+	color: #B2B2B2;
 }
 
 .intro-text-subtitle {
-	color: blue;
+	color: #36393b;
 }
 
 #services {
@@ -96,13 +106,13 @@ header .container {
 }
 
 .bg-light-gray {
-	background-color: #F7F7F7;
+	background-color: #eff2f4;
 }
 
 footer {
 	padding: 25px 0px;
 	text-align: center;
-	background-color: #222;
+	background-color: #36393B;
 	color: #FFF;
 }
 
@@ -122,6 +132,7 @@ section {
 img.desaturate {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
+	transition: all 0.2s;
 }
 
 img.image-size {
@@ -145,13 +156,12 @@ img.desaturate:hover {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background-color: yellow;
 }
 
 .portfolio-item-hover-content {
-	top: 40%;
+	top: 30%;
 	position: relative;
-	color: red;
+	color: #36393b;
 	text-align: center;
 }
 
@@ -162,7 +172,7 @@ img.desaturate:hover {
 .portfolio-item-hover:hover{
 	opacity: 1;
 	transition: all 0.4s;
-	background: rgba(54, 25, 25, .5);
+	background: rgba(54, 57, 59, .5);
 }
 
 .portfolio-item-description {
@@ -207,7 +217,7 @@ img.desaturate:hover {
 ul.social-buttons li a {
     background-color: #FFF;
     border-radius: 100%;
-    color: red;
+    color: #36393b;
     display: block;
     font-size: 20px;
     height: 40px;
@@ -220,6 +230,15 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: red;
+    background-color: #C1C1C1;
     color: white;
+}
+
+.fa-stack .fa {
+	color : #B2B2B2;
+	background-color: white;
+	border-radius: 100%;
+	height: 140px;
+	width: 140px;
+	line-height: 140px;
 }
