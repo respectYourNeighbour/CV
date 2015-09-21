@@ -6,10 +6,10 @@ nav .container #navbar ul {
 	text-transform: uppercase;
 }
 p{
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 h4{
-	font-size: 2em;
+	font-size: 1.6em;
 }
 
 .navbar {
@@ -117,9 +117,6 @@ header .container {
 	min-height: 800px;
 }
 
-#team {
-	height: 800px;
-}
 
 #contact {
 	min-height: 800px;
@@ -158,8 +155,11 @@ section {
 	padding: 150px 0px;
 }
 
+aside {
+	padding: 150px 0px;
+}
+
 .section-title {
-	font-size: 1.8em;
 	text-transform: uppercase;
 }
 .text-center {
@@ -324,7 +324,7 @@ section h2.section-heading {
     margin-top: 0;
 }
 
-section h3.section-subheading {
+h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1em;
     font-style: italic;
@@ -333,12 +333,12 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-.portfolio-item-description h3 {
-	font-size: 1.4em;
+.portfolio-item-descriziption h3 {
+	font-size: 1.1em;
 }
 
 .portfolio-item-description h4 {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 .footer-copyright {
 	margin-top: 10px;
@@ -426,7 +426,7 @@ header:before, #timeline .timeline-item:before {
 	-ms-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-#timeline .timeline-item .timeline-content h2 {
+#timeline .timeline-item .timeline-content h4 {
 	padding: 15px;
 	background: #ee4d4d;
 	color: #fff;
@@ -437,6 +437,20 @@ header:before, #timeline .timeline-item:before {
 	-ms-border-radius: 3px 3px 0 0;
 	border-radius: 3px 3px 0 0;
 }
+
+/*
+ia fii atent
+
+#timeline {
+	.timeline-item {
+		.timeline-content:before {
+			asa vine ierarhia la astea?
+			ok.
+			o sa modific eu css-ul sa il fac in less
+			ok.hai la dota
+		}
+	}
+}*/
 #timeline .timeline-item .timeline-content:before {
 	content: '';
 	position: absolute;
@@ -468,6 +482,13 @@ header:before, #timeline .timeline-item:before {
 @media (min-width: 768px) { 
 
 }
+@media screen and (max-width: 320px) {   
+       img.desaturate {
+			-webkit-filter: grayscale(0%);
+			filter: grayscale(0%);
+		}
+    }   
+
 
 @media screen and (max-width: 768px) {
 	/*Timeline*/
@@ -518,7 +539,7 @@ header:before, #timeline .timeline-item:before {
   	.js-shadow {
 	  	font-size: 6em;
 	}
-	.fa-stack .fa {
+	/*.fa-stack .fa {
 		height: 100px;
 		width: 100px;
 		line-height: 100px;
@@ -531,7 +552,7 @@ header:before, #timeline .timeline-item:before {
 	}
 	.portfolio-item-hover-content {
 		top: 30%;
-	}
+	}*/
 	.intro-text img {
 		width: 100%;
 	}
@@ -544,7 +565,7 @@ header:before, #timeline .timeline-item:before {
   	.js-shadow {
 	  	font-size: 4em;
 	}
-	.fa-stack .fa {
+	/*.fa-stack .fa {
 		height: 70px;
 		width: 70px;
 		line-height: 70px;
@@ -558,5 +579,13 @@ header:before, #timeline .timeline-item:before {
 	}
 	.portfolio-item-hover-content {
 		top: 20%;
-	}
+	}*/
+}
+
+.tech-item {
+	margin-bottom: 20px;
+}
+
+.timeline-text {
+	margin-top:20px;
 }
